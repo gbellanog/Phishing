@@ -1,0 +1,151 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; 
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f7;
+            padding: 20px; 
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #0866ff;
+            font-weight: 790;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start; 
+            margin-top: 2px;
+        }
+
+        .login {
+            background-color: white;
+            padding: 16px; 
+            margin: 20px; 
+            border-radius: 8px;
+            box-shadow: 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 360px;
+            height: auto; 
+            margin-right: 10px;
+            margin-top: -210px;
+        }
+
+        .botaoaz {
+            background-color: #0866ff;
+            color: white;
+            width: 100%; /* Largura total do botão */
+            font-size: larger;
+            border: none;
+            height: 48px;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .botaoverd {
+            background-color: #42b72a;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+            height: 48px;
+            width: 166.15px;
+            border: none;
+            padding: 16px;
+            border-radius: 6px;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #1877f2;
+        }
+
+        .inputt {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        .inputt input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            height: 30px;
+        }
+
+        .crie {
+            font-size: 14px;
+            padding-top: 20px;
+            width: max-content;
+        }
+        
+        .tex {
+            font-size: 28px;
+            margin: 20px; 
+            padding: 20px; 
+            border-radius: 8px; 
+            width: 495px; 
+            margin-top: -7px;
+        }
+
+        img {
+            width: 290px; 
+            margin-top: 100px;
+            margin-left: -460px;
+            
+        }
+
+        .imag{
+            width: max-content;
+        }
+
+        .crie{
+            height: 37.5px;
+            width: 396px;
+            text-align: center;
+            margin-left: 590px;
+            margin-top: -10px;
+        }
+
+        @media screen and (max-width: 768px){
+            .container{
+                display: block;
+            }
+
+            img{
+                width: 340px;
+            }
+
+            .imag{
+                
+                margin-left: 620px;
+                margin-top: -170px;
+                display: flex;
+            }
+
+            .login{
+                margin-left: 100px;
+                align-items: center;
+                margin-top: 30px;
+            }
+
+            .tex{
+                text-align: center;
+                font-size: 20px;
+                margin-left: 20px;
+            }
+
+            .crie{
+                margin-left: 20px;
+            }
+            
+        }
+
